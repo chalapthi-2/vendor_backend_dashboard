@@ -1,0 +1,400 @@
+/* ------------------- */
+/* Google Fonts */
+/* ------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* ------------------- */
+/* Global Styles */
+/* ------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f9f9fc, #eef3f9);
+  color: #222;
+}
+
+/* ------------------- */
+/* Navigation Bar */
+/* ------------------- */
+.navSec {
+  margin: 10px;
+  padding: 14px 20px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+}
+
+.navSec .company {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2d2d2d;
+  letter-spacing: 1px;
+}
+
+.navSec span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navSec span:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* ------------------- */
+/* Sidebar */
+/* ------------------- */
+.sideBarSec {
+  background: linear-gradient(180deg, #374151, #111827);
+  color: #fff;
+  width: 220px;
+  height: 95vh;
+  margin: 5px;
+  padding: 20px 15px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+
+.sideBarSec ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sideBarSec ul li {
+  list-style: none;
+  margin-bottom: 18px;
+  font-weight: 500;
+  padding: 12px 14px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.sideBarSec ul li:hover {
+  background: #2563eb;
+  transform: translateX(4px);
+  cursor: pointer;
+}
+
+/* ------------------- */
+/* Layout Wrapper */
+/* ------------------- */
+.collectionSec {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+/* ------------------- */
+/* Login Section */
+/* ------------------- */
+.login-container,
+.register-container {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  padding: 35px 28px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  margin: auto;
+  transition: transform 0.3s ease;
+}
+
+.login-container:hover,
+.register-container:hover {
+  transform: translateY(-3px);
+}
+
+.login-title,
+.register-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 25px;
+}
+
+.login-form .form-group,
+.register-form .form-group {
+  margin-bottom: 18px;
+}
+
+.login-form label,
+.register-form label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+  color: #444;
+}
+
+.login-form input,
+.register-form input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.login-form input:focus,
+.register-form input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.3);
+  outline: none;
+}
+
+.login-button,
+.register-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover,
+.register-button:hover {
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+  transform: translateY(-2px);
+}
+
+/* ------------------- */
+/* Add Firm Section */
+/* ------------------- */
+.addfirm-container {
+  width: 520px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.addfirm-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.addfirm-form .form-group {
+  margin-bottom: 15px;
+}
+
+.addfirm-form label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.addfirm-form input[type="text"],
+.addfirm-form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.addfirm-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.addfirm-button:hover {
+  background: linear-gradient(135deg, #059669, #047857);
+  transform: translateY(-2px);
+}
+
+/* Toggle Button */
+.category-toggle {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.category-toggle label {
+  padding: 8px 14px;
+  border: 1px solid #2563eb;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2563eb;
+  transition: all 0.3s ease;
+}
+
+.category-toggle input[type="checkbox"] {
+  display: none;
+}
+
+.category-toggle input[type="checkbox"]:checked + label {
+  background: #2563eb;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+}
+
+/* ------------------- */
+/* Add Product Section */
+/* ------------------- */
+.add-product-container {
+  max-width: 520px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.add-product-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #111;
+  font-weight: 700;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.3);
+  outline: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(135deg, #ea580c, #c2410c);
+  transform: translateY(-2px);
+}
+
+/* ------------------- */
+/* All Products Table */
+/* ------------------- */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.product-table thead {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: white;
+}
+
+.product-table th,
+.product-table td {
+  padding: 14px 18px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+.product-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.product-table img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.product-table button {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.product-table button:hover {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+}
+
+/* ------------------- */
+/* Responsive Design */
+/* ------------------- */
+@media (max-width: 768px) {
+  .collectionSec {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sideBarSec {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .login-container,
+  .register-container,
+  .addfirm-container,
+  .add-product-container {
+    margin: 20px;
+    padding: 20px;
+  }
+}
